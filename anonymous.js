@@ -7,3 +7,9 @@ sum(4,6);
 (function(a,b){
     console.log(a+b);
 }(3,5));
+
+//setTimeout-bultin function
+setTimeout(
+    function(){
+        console.log("Hello...");
+},2000);
